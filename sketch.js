@@ -9,7 +9,7 @@ var block1,i=600,poly
 
 function setup()
 {
-    createCanvas(1300, 600);
+    createCanvas(1300, 600)
 	engine = Engine.create();
 	world = engine.world;
     
@@ -26,51 +26,51 @@ function setup()
 
 //stage 1
 //layer 1
-    block1=new Block(i,280,30,40)
-    block2=new Block(i+40,280,30,40)
-    block3=new Block(i+80,280,30,40)
-    block4=new Block(i+120,280,30,40)
-    block5=new Block(i+160,280,30,40)
-    block6=new Block(i+200,280,30,40)
+    block1=new Block(i,380,30,40,PI)
+    block2=new Block(i+40,380,30,40,PI)
+    block3=new Block(i+80,380,30,40,PI)
+    block4=new Block(i+120,380,30,40,PI)
+    block5=new Block(i+160,380,30,40,PI)
+    block6=new Block(i+200,380,30,40,PI)
 
 //layer 2
-    block7=new Block(i+20,200,30,40)
-    block8=new Block(i+60,200,30,40)
-    block9=new Block(i+100,200,30,40)
-    block10=new Block(i+140,200,30,40)
-    block11=new Block(i+180,200,30,40)
+    block7=new Block(i+25,300,30,40,PI)
+    block8=new Block(i+65,300,30,40,PI)
+    block9=new Block(i+105,300,30,40,PI)
+    block10=new Block(i+145,300,30,40,PI)
+    block11=new Block(i+185,300,30,40,PI)
 
 //layer 3
-    block12=new Block(i+40,140,30,40)
-    block13=new Block(i+80,140,30,40)
-    block14=new Block(i+120,140,30,40)
-    block15=new Block(i+160,140,30,40)
+    block12=new Block(i+40,240,30,40,PI)
+    block13=new Block(i+80,240,30,40,PI)
+    block14=new Block(i+120,240,30,40,PI)
+    block15=new Block(i+160,240,30,40,PI)
 
 //layer 4
-    block16=new Block(i+60,80,30,40)
-    block17=new Block(i+100,80,30,40)
-    block18=new Block(i+140,80,30,40)
+    block16=new Block(i+60,180,30,40,PI)
+    block17=new Block(i+100,180,30,40,PI)
+    block18=new Block(i+140,180,30,40,PI)
 
 //layer 5
-    block19=new Block(i+80,20,30,40)
-    block20=new Block(i+120,20,30,40)
+    block19=new Block(i+80,120,30,40,PI)
+    block20=new Block(i+120,120,30,40,PI)
 
 //layer 6
-    block21=new Block(i+100,-30,30,40)
+    block21=new Block(i+100,70,30,40,PI)
 
 //stage 2
 
 //layer 1
-    block22=new Block(i+450,250,40,40)
-    block23=new Block(i+500,250,40,40)
-    block24=new Block(i+550,250,40,40)
+    block22=new Block(i+450,250,40,40,PI)
+    block23=new Block(i+500,250,40,40,PI)
+    block24=new Block(i+550,250,40,40,PI)
 
 //layer 2
-    block25=new Block(i+475,200,40,40)
-    block26=new Block(i+525,200,40,40)
+    block25=new Block(i+475,200,40,40,PI)
+    block26=new Block(i+525,200,40,40,PI)
 
 //layer 3
-    block27=new Block(i+500,100,40,40)
+    block27=new Block(i+500,50,40,40,PI)
 
     Engine.run(engine);
 }
