@@ -5,7 +5,7 @@ class Block
         var boptions=
         {
             isStatic:false,
-            restitution:0.8,
+            restitution:0.2,
             friction:1.0,
             density:1.0
         }
